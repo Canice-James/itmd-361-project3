@@ -142,3 +142,20 @@ h3 {
 figure:hover {
   background: #fbd7d7;
 }
+
+.not-expanded {
+  height: 4em;
+  overflow: hidden;
+}
+
+.expanded {
+  height: auto;
+  overflow: inherit;
+}
+
+.read-more-button {
+  text-align: center;
+  color: #8c8c8c;
+  text-decoration: underline solid #6b6767;
+}
+
