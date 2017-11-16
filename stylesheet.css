@@ -30,6 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
+  transition: background 1s ease;  
   display: block;
   color: #000000;
   padding: 15px 30px;  
@@ -141,7 +142,6 @@ h3 {
 }
 
 figure:hover {
-  transition: background 1s ease;  
   background: #fbd7d7;
 }
 
@@ -152,7 +152,7 @@ figure:hover {
 }
 
 .expanded {
-  transition: max-height 0.5s ease-out;
+  transition: max-height 0.5s ease-in;
   max-height: 700px;
   overflow: inherit;
 }
