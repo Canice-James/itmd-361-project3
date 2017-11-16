@@ -123,6 +123,7 @@ h3 {
 }
 
 .content-container figure {
+  transition: background 1s ease;  
   display: block;
   border: 1px solid rgba(76, 40, 40, 0.42);
   padding: 10px;
@@ -140,6 +141,7 @@ h3 {
 }
 
 figure:hover {
+  transition: background 1s ease;  
   background: #fbd7d7;
 }
 
