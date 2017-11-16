@@ -16,7 +16,6 @@ window.onload = function() {
       }
     }
   }
-
 }
 
 function collapseElement(targetElement, toggleElement){
@@ -24,7 +23,7 @@ function collapseElement(targetElement, toggleElement){
     targetElement.classList.remove("expanded");
   if (!targetElement.classList.contains("not-expanded"))
     targetElement.classList.add("not-expanded");
-
+  
   toggleElement.innerText = "Show More";
 }
 
