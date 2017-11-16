@@ -144,12 +144,14 @@ figure:hover {
 }
 
 .not-expanded {
-  height: 4em;
+  transition: max-height 0.5s ease-out;
+  max-height: 4em;
   overflow: hidden;
 }
 
 .expanded {
-  height: auto;
+  transition: max-height 0.5s ease-out;
+  max-height: 700px;
   overflow: inherit;
 }
 
